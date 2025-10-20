@@ -23,8 +23,6 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL a1, java.util.ResourceBundle a2) {
-        //webView.getEngine().load("https://www.example.com");
-        //statusLabel.setText("WebView Loaded");
         engine = webView.getEngine();
         String homePage = "www.google.com";
         textField.setText(homePage);
